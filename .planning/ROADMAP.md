@@ -10,7 +10,7 @@ A publicly accessible, recruiter-ready single-page portfolio that meets all v1 r
 
 | Phase | Title | Goal | REQs Covered |
 |-------|-------|------|-------------|
-| 1 | Foundation & Styling Setup | Complete (3/3 plans done) | REQ-001–004 |
+| 1 | Foundation & Styling Setup | Complete    | 2026-03-03 |
 | 2 | Layout Shell & Navigation | App shell, routing/scroll, responsive nav | REQ-010–012 |
 | 3 | Hero / About Section | Name, tagline, bio rendered with editorial typography | REQ-020–023 |
 | 4 | Projects Section | Project cards with tags and links | REQ-030–034 |
@@ -26,7 +26,7 @@ A publicly accessible, recruiter-ready single-page portfolio that meets all v1 r
 
 **Requirements**: REQ-001, REQ-002, REQ-003, REQ-004
 
-**Plans:** 3/3 plans executed
+**Plans:** 3/3 plans complete
 
 Plans:
 - [x] 01-01-PLAN.md — Install Tailwind CSS v3, configure PostCSS pipeline, write design tokens, replace index.css with Tailwind directives
