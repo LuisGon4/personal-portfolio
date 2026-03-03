@@ -10,12 +10,12 @@ This document covers all requirements for Milestone 1: a publicly accessible, re
 
 ### Setup & Infrastructure
 
-| ID | Requirement | Priority |
-|----|-------------|----------|
-| REQ-001 | Install and configure Tailwind CSS v3 with PostCSS | Must |
-| REQ-002 | Configure Tailwind with a custom design token set (black/white palette, editorial font sizes) | Must |
-| REQ-003 | Replace default Vite scaffold (App.jsx, App.css, index.css) with portfolio shell | Must |
-| REQ-004 | Set up React Router or anchor-based smooth scroll navigation | Must |
+| ID | Requirement | Priority | Status |
+|----|-------------|----------|--------|
+| REQ-001 | Install and configure Tailwind CSS v3 with PostCSS | Must | Done (01-01) |
+| REQ-002 | Configure Tailwind with a custom design token set (black/white palette, editorial font sizes) | Must | Done (01-01) |
+| REQ-003 | Replace default Vite scaffold (App.jsx, App.css, index.css) with portfolio shell | Must | Done (01-02) |
+| REQ-004 | Set up React Router or anchor-based smooth scroll navigation | Must | Done (01-02) |
 
 ### Navigation
 

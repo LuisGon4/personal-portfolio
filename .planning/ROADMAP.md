@@ -10,7 +10,7 @@ A publicly accessible, recruiter-ready single-page portfolio that meets all v1 r
 
 | Phase | Title | Goal | REQs Covered |
 |-------|-------|------|-------------|
-| 1 | Foundation & Styling Setup | In Progress (1/3 plans done) | REQ-001–004 |
+| 1 | Foundation & Styling Setup | In Progress (2/3 plans done) | REQ-001–004 |
 | 2 | Layout Shell & Navigation | App shell, routing/scroll, responsive nav | REQ-010–012 |
 | 3 | Hero / About Section | Name, tagline, bio rendered with editorial typography | REQ-020–023 |
 | 4 | Projects Section | Project cards with tags and links | REQ-030–034 |
@@ -26,11 +26,11 @@ A publicly accessible, recruiter-ready single-page portfolio that meets all v1 r
 
 **Requirements**: REQ-001, REQ-002, REQ-003, REQ-004
 
-**Plans:** 1/3 plans executed
+**Plans:** 2/3 plans executed
 
 Plans:
 - [x] 01-01-PLAN.md — Install Tailwind CSS v3, configure PostCSS pipeline, write design tokens, replace index.css with Tailwind directives
-- [ ] 01-02-PLAN.md — Replace Vite scaffold (App.jsx, App.css, react.svg), install Inter font via Fontsource
+- [x] 01-02-PLAN.md — Replace Vite scaffold (App.jsx, App.css, react.svg), install Inter font via Fontsource
 - [ ] 01-03-PLAN.md — Run dev server, human visual verification, restore clean App.jsx shell
 
 **Success Criteria:**
