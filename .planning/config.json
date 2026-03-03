@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "project": "personal-portfolio",
+  "initialized": "2026-03-03",
+
+  "workflow": {
+    "mode": "balanced",
+    "parallelization": true,
+    "git": {
+      "atomic_commits": true,
+      "commit_per_phase": true
+    },
+    "agents": {
+      "use_subagents": true,
+      "model_profile": "balanced"
+    },
+    "depth": "standard"
+  },
+
+  "milestone": {
+    "current": 1,
+    "label": "v1 — Launch-Ready Portfolio"
+  },
+
+  "stack": {
+    "framework": "react",
+    "version": "19",
+    "build_tool": "vite",
+    "language": "javascript",
+    "styling": "tailwindcss",
+    "type": "spa"
+  },
+
+  "phases": {
+    "naming": "sequential",
+    "current_phase": 0
+  }
+}
