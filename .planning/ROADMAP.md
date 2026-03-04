@@ -14,7 +14,7 @@ A publicly accessible, recruiter-ready single-page portfolio that meets all v1 r
 | 2 | Layout Shell & Navigation | App shell, routing/scroll, responsive nav | REQ-010–012 |
 | 3 | Hero / About Section | Name, tagline, bio rendered with editorial typography | REQ-020–023 |
 | 4 | Projects Section | Complete 2/2 plans done | 2026-03-04 |
-| 5 | Resume Section | PDF embed + download button | REQ-040–042 |
+| 5 | Resume Section | Complete 1/1 plans done | 2026-03-04 |
 | 6 | Contact Section & Footer | Social links with icons, footer | REQ-050–053 |
 | 7 | Polish & Accessibility Audit | Responsiveness, a11y, meta tags, final review | REQ-060–066 |
 
@@ -108,13 +108,10 @@ Plans:
 
 **Requirements**: REQ-040, REQ-041, REQ-042
 
-### Tasks
-1. Add placeholder `public/resume.pdf` (empty — developer replaces)
-2. Create `src/sections/Resume.jsx`
-3. Embed PDF using `<iframe src="/resume.pdf" />` with height/width styling
-4. Add "Download Resume" `<a>` with `download` attribute
-5. Style section header and button in Tailwind
-6. Fallback message if PDF fails to load
+**Plans:** 1/1 plans complete
+
+Plans:
+- [x] 05-01-PLAN.md — Add placeholder public/resume.pdf and implement Resume.jsx with iframe embed and download button
 
 **Success Criteria:**
 1. PDF renders inline on desktop browsers
