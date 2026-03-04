@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-stopped_at: Completed 01-foundation-styling-setup/01-03-PLAN.md
-last_updated: "2026-03-03T20:29:55.261Z"
+stopped_at: Completed 04-projects-section/04-01-PLAN.md
+last_updated: "2026-03-04T18:52:56.252Z"
 progress:
   total_phases: 7
   completed_phases: 1
-  total_plans: 3
-  completed_plans: 3
+  total_plans: 5
+  completed_plans: 4
 ---
 
 # Project State
@@ -48,6 +48,9 @@ progress:
 - **01-03:** Smoke test paragraph elements are verification-only — removed before committing clean state
 
 ---
+- [Phase 04-01]: Used <article> as root element for ProjectCard — semantic HTML5 for self-contained content units (REQ-061)
+- [Phase 04-01]: flex-1 on description <p> ensures link rows align at card bottoms in a grid layout
+- [Phase 04-01]: Data-UI separation pattern established: content in src/data/, components in src/components/, sections wire them together
 
 ## Performance Metrics
 
@@ -58,11 +61,12 @@ progress:
 | 01-foundation-styling-setup | 03 | 3min | 3 | 1 |
 
 ---
+| Phase 04-projects-section P01 | 1min | 2 tasks | 2 files |
 
 ## Session Info
 
-- **Last Session:** 2026-03-03
-- **Stopped At:** Completed 01-foundation-styling-setup/01-03-PLAN.md
+- **Last Session:** 2026-03-04T18:52:56.250Z
+- **Stopped At:** Completed 04-projects-section/04-01-PLAN.md
 
 ---
 
