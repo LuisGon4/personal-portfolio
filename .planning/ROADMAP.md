@@ -89,13 +89,11 @@ Plans:
 
 **Requirements**: REQ-030, REQ-031, REQ-032, REQ-033, REQ-034
 
-### Tasks
-1. Create `src/data/projects.js` — array of project objects with fields: `title`, `description`, `tags[]`, `githubUrl`, `liveUrl` (optional)
-2. Create `src/components/ProjectCard.jsx` — renders a single project card
-3. Create `src/sections/Projects.jsx` — maps over projects data, renders cards in grid
-4. Style: clean cards with border, tag pills in monospace or small sans
-5. Add placeholder project entries (developer fills in later)
-6. Grid collapses to single column on mobile
+**Plans:** 2 plans
+
+Plans:
+- [ ] 04-01-PLAN.md — Create projects data module (src/data/projects.js) and ProjectCard component (src/components/ProjectCard.jsx)
+- [ ] 04-02-PLAN.md — Replace Projects.jsx stub with complete section, human visual verification
 
 **Success Criteria:**
 1. All card fields (title, description, tags) render correctly
