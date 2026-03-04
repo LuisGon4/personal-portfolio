@@ -13,7 +13,7 @@ A publicly accessible, recruiter-ready single-page portfolio that meets all v1 r
 | 1 | Foundation & Styling Setup | Complete    | 2026-03-03 |
 | 2 | Layout Shell & Navigation | App shell, routing/scroll, responsive nav | REQ-010–012 |
 | 3 | Hero / About Section | Name, tagline, bio rendered with editorial typography | REQ-020–023 |
-| 4 | 1/2 | In Progress|  |
+| 4 | Projects Section | Complete 2/2 plans done | 2026-03-04 |
 | 5 | Resume Section | PDF embed + download button | REQ-040–042 |
 | 6 | Contact Section & Footer | Social links with icons, footer | REQ-050–053 |
 | 7 | Polish & Accessibility Audit | Responsiveness, a11y, meta tags, final review | REQ-060–066 |
@@ -89,11 +89,11 @@ Plans:
 
 **Requirements**: REQ-030, REQ-031, REQ-032, REQ-033, REQ-034
 
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 
 Plans:
-- [ ] 04-01-PLAN.md — Create projects data module (src/data/projects.js) and ProjectCard component (src/components/ProjectCard.jsx)
-- [ ] 04-02-PLAN.md — Replace Projects.jsx stub with complete section, human visual verification
+- [x] 04-01-PLAN.md — Create projects data module (src/data/projects.js) and ProjectCard component (src/components/ProjectCard.jsx)
+- [x] 04-02-PLAN.md — Replace Projects.jsx stub with complete section, human visual verification
 
 **Success Criteria:**
 1. All card fields (title, description, tags) render correctly

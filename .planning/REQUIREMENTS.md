@@ -36,13 +36,13 @@ This document covers all requirements for Milestone 1: a publicly accessible, re
 
 ### Projects Section
 
-| ID | Requirement | Priority |
-|----|-------------|----------|
-| REQ-030 | Display 1–3 project cards in a grid or column layout | Must |
-| REQ-031 | Each card shows: project title, short description | Must |
-| REQ-032 | Each card shows: tech stack tags (e.g., React, Python, etc.) | Must |
-| REQ-033 | Each card shows: link(s) — GitHub repo and/or live demo | Must |
-| REQ-034 | Cards are readable on mobile (stack to single column) | Must |
+| ID | Requirement | Priority | Status |
+|----|-------------|----------|--------|
+| REQ-030 | Display 1–3 project cards in a grid or column layout | Must | Done (04-01, 04-02) |
+| REQ-031 | Each card shows: project title, short description | Must | Done (04-01, 04-02) |
+| REQ-032 | Each card shows: tech stack tags (e.g., React, Python, etc.) | Must | Done (04-01, 04-02) |
+| REQ-033 | Each card shows: link(s) — GitHub repo and/or live demo | Must | Done (04-01, 04-02) |
+| REQ-034 | Cards are readable on mobile (stack to single column) | Must | Done (04-01, 04-02) |
 
 ### Resume Section
 

@@ -2,14 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: unknown
-stopped_at: Completed 04-projects-section/04-01-PLAN.md
-last_updated: "2026-03-04T18:52:56.252Z"
+status: in-progress
+stopped_at: Completed 04-projects-section/04-02-PLAN.md
+last_updated: "2026-03-04T19:30:00.000Z"
 progress:
   total_phases: 7
   completed_phases: 1
   total_plans: 5
-  completed_plans: 4
+  completed_plans: 5
 ---
 
 # Project State
@@ -17,9 +17,9 @@ progress:
 ## Current Status
 
 **Milestone**: 1 — v1 Launch-Ready Portfolio
-**Current Phase**: 2 (Layout Shell & Navigation — Not Started)
-**Current Plan**: Phase 1 Complete — Phase 2, Plan 01 next
-**Last Updated**: 2026-03-03
+**Current Phase**: 4 (Projects Section — Complete)
+**Current Plan**: Phase 4 Complete — Phase 5, Plan 01 next
+**Last Updated**: 2026-03-04
 
 ---
 
@@ -30,7 +30,7 @@ progress:
 | 1 | Foundation & Styling Setup | Complete (3/3 plans done) |
 | 2 | Layout Shell & Navigation | Not Started |
 | 3 | Hero / About Section | Not Started |
-| 4 | Projects Section | Not Started |
+| 4 | Projects Section | Complete (2/2 plans done) |
 | 5 | Resume Section | Not Started |
 | 6 | Contact Section & Footer | Not Started |
 | 7 | Polish & Accessibility Audit | Not Started |
@@ -51,6 +51,9 @@ progress:
 - [Phase 04-01]: Used <article> as root element for ProjectCard — semantic HTML5 for self-contained content units (REQ-061)
 - [Phase 04-01]: flex-1 on description <p> ensures link rows align at card bottoms in a grid layout
 - [Phase 04-01]: Data-UI separation pattern established: content in src/data/, components in src/components/, sections wire them together
+- [Phase 04-02]: No min-h-screen on Projects section — card grid height is content-driven, not viewport-filling
+- [Phase 04-02]: text-4xl heading (vs About text-6xl) maintains visual hierarchy for secondary-level sections
+- [Phase 04-02]: All sections share px-6 py-24 max-w-5xl mx-auto container pattern for visual alignment
 
 ## Performance Metrics
 
@@ -62,11 +65,12 @@ progress:
 
 ---
 | Phase 04-projects-section P01 | 1min | 2 tasks | 2 files |
+| Phase 04-projects-section P02 | 5min | 2 tasks | 1 file |
 
 ## Session Info
 
-- **Last Session:** 2026-03-04T18:52:56.250Z
-- **Stopped At:** Completed 04-projects-section/04-01-PLAN.md
+- **Last Session:** 2026-03-04T19:30:00Z
+- **Stopped At:** Completed 04-projects-section/04-02-PLAN.md
 
 ---
 
@@ -85,4 +89,4 @@ progress:
 
 ## Next Action
 
-Execute Phase 2 (Layout Shell & Navigation) — begin with Plan 01.
+Execute Phase 5 (Resume Section) — begin with Plan 01.
