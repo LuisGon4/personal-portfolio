@@ -50,7 +50,11 @@ Full archive: `.planning/milestones/v1.0.0-ROADMAP.md`
 
 **Requirements:** SHAPE-01, SHAPE-02, SHAPE-03
 
-**Plans:** 0/1 plans complete
+**Plans:** 2 plans
+
+Plans:
+- [ ] 10-01-PLAN.md — Fix existing shapes and add three new shapes (autonomous, wave 1)
+- [ ] 10-02-PLAN.md — Human visual verification at 375/768/1280px (checkpoint, wave 2)
 
 **Success Criteria:**
 1. No geometric shape overlaps or obscures any text at 375px, 768px, 1280px
