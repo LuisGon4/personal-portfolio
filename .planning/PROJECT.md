@@ -13,27 +13,29 @@ A single-page personal portfolio website for a CS student targeting recruiters a
 
 **Dark minimal, editorial, professional** — deliberately distanced from generic AI-generated frontend aesthetics.
 
-- **Color palette**: Black and white only (no gradients, no glassmorphism, no neon/colored accents)
+- **Color palette**: Black and white primary, with indigo accent (added Phase 7)
 - **Typography**: Editorial — large, intentional type treatments; clear hierarchy
 - **Whitespace**: Generous, intentional — content breathes
 - **Interactions**: Subtle, purposeful — no gratuitous animations
 - **Anti-patterns to avoid**: Purple/blue gradients, frosted glass cards, glowing borders, particle backgrounds, animated counters
 
-## Tech Stack
+## Tech Stack (Confirmed v1.0.0)
 
 | Layer | Technology |
 |-------|-----------|
 | Framework | React 19 |
 | Build Tool | Vite 7 |
 | Language | JavaScript (JSX) |
-| Styling | Tailwind CSS v3 (to be installed) |
+| Styling | Tailwind CSS v3 |
+| Font | Inter via @fontsource/inter |
+| Icons | lucide-react |
 | Hosting | TBD (Vercel / Netlify recommended) |
 
 ## Site Structure
 
 Single-page application with smooth scroll navigation:
 
-1. **Hero / About** — Name, one-line role description, brief bio
+1. **Hero / About** — Name, one-line role description, brief bio, profile photo
 2. **Projects** — 1–3 project cards (title, tech stack tags, description, links)
 3. **Resume** — Embedded PDF viewer + download button
 4. **Contact** — GitHub, LinkedIn, Email links
@@ -54,10 +56,26 @@ A recruiter landing on the page can within 10 seconds:
 3. Download or view the resume
 4. Find a way to reach out
 
+## Current State (v1.0.0)
+
+- **Status**: Shipped 2026-03-05
+- **All 8 phases complete** — site is launch-ready
+- **Stack confirmed**: React 19, Vite 7, JavaScript, Tailwind CSS v3
+- **Indigo accent** added in Phase 7 (supersedes original black/white-only constraint REQ-063)
+- **Profile photo slot** present in hero (grayscale → color on hover)
+- **Geometric decorations** in hero section (circle, square)
+- **Section tints**: Projects and Contact use `bg-slate-50`
+
+## Validated Requirements (v1.0.0)
+
+All REQ-001–REQ-066 delivered. See `.planning/milestones/v1.0.0-REQUIREMENTS.md` for full audit.
+
+Notable: REQ-063 ("no color other than black/white/gray") was superseded — indigo accent introduced in Phase 7 as deliberate design improvement.
+
 ## Project Root
 
 `/Users/luis/Desktop/PortfolioWebsite/PersonalPortfolio/`
 
-## Initialized
+## Last updated
 
-2026-03-03
+2026-03-05 after v1.0.0 milestone

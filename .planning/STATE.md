@@ -1,93 +1,42 @@
 ---
 gsd_state_version: 1.0
-milestone: v1.0
-milestone_name: milestone
-status: unknown
-stopped_at: Completed 05-resume-section/05-01-PLAN.md
-last_updated: "2026-03-04T20:00:00.000Z"
+milestone: v1.0.0
+milestone_name: Launch-Ready Portfolio
+status: complete
+stopped_at: v1.0.0 milestone archived
+last_updated: "2026-03-05T00:00:00.000Z"
 progress:
-  total_phases: 7
-  completed_phases: 3
-  total_plans: 6
-  completed_plans: 6
+  total_phases: 8
+  completed_phases: 8
+  total_plans: 7
+  completed_plans: 7
 ---
 
 # Project State
 
 ## Current Status
 
-**Milestone**: 1 — v1 Launch-Ready Portfolio
-**Current Phase**: 5 (Resume Section — Complete)
-**Current Plan**: Phase 5 Complete — Phase 6, Plan 01 next
-**Last Updated**: 2026-03-04
+**Milestone**: v1.0.0 — Launch-Ready Portfolio
+**Status**: Complete — all 8 phases shipped
+**Last Updated**: 2026-03-05
 
 ---
 
-## Milestone 1 Phase Progress
+## Milestone v1.0.0 Phase Progress
 
 | Phase | Title | Status |
 |-------|-------|--------|
 | 1 | Foundation & Styling Setup | Complete (3/3 plans done) |
-| 2 | Layout Shell & Navigation | Not Started |
-| 3 | Hero / About Section | Not Started |
+| 2 | Layout Shell & Navigation | Complete |
+| 3 | Hero / About Section | Complete |
 | 4 | Projects Section | Complete (2/2 plans done) |
 | 5 | Resume Section | Complete (1/1 plans done) |
-| 6 | Contact Section & Footer | Not Started |
-| 7 | Polish & Accessibility Audit | Not Started |
-
----
-
-## Decisions
-
-- **01-01:** Used `theme.extend` (not `theme`) to preserve Tailwind default palette while adding off-white/near-black tokens and Inter font
-- **01-01:** Pinned tailwindcss@3 explicitly to avoid Tailwind v4's incompatible config format
-- **01-01:** CLI generated ESM syntax natively — no CJS-to-ESM conversion needed
-- **01-02:** Used @fontsource/inter (self-hosted npm) instead of Google Fonts CDN for privacy and offline reliability
-- **01-02:** App root uses `<main>` semantic HTML landmark instead of `<div>` for accessibility and REQ-004 anchor navigation
-- **01-02:** Only 3 font weights imported (400, 500, 700) to minimize bundle size
-- **01-03:** Smoke test paragraph elements are verification-only — removed before committing clean state
-
----
-- [Phase 04-01]: Used <article> as root element for ProjectCard — semantic HTML5 for self-contained content units (REQ-061)
-- [Phase 04-01]: flex-1 on description <p> ensures link rows align at card bottoms in a grid layout
-- [Phase 04-01]: Data-UI separation pattern established: content in src/data/, components in src/components/, sections wire them together
-- [Phase 04-02]: No min-h-screen on Projects section — card grid height is content-driven, not viewport-filling
-- [Phase 04-02]: text-4xl heading (vs About text-6xl) maintains visual hierarchy for secondary-level sections
-- [Phase 04-02]: All sections share px-6 py-24 max-w-5xl mx-auto container pattern for visual alignment
-
-## Performance Metrics
-
-| Phase | Plan | Duration | Tasks | Files |
-|-------|------|----------|-------|-------|
-| 01-foundation-styling-setup | 01 | 1min | 2 | 5 |
-| 01-foundation-styling-setup | 02 | 1min | 2 | 4 |
-| 01-foundation-styling-setup | 03 | 3min | 3 | 1 |
-
----
-| Phase 04-projects-section P01 | 1min | 2 tasks | 2 files |
-| Phase 04-projects-section P02 | 5min | 2 tasks | 1 file |
-| Phase 05-resume-section P01 | 1min | 2 tasks | 2 files |
-
-## Session Info
-
-- **Last Session:** 2026-03-04T19:30:00Z
-- **Stopped At:** Completed 04-projects-section/04-02-PLAN.md
-
----
-
-## Notes
-
-- Tailwind CSS installed: tailwindcss@3.4.19, postcss@8.5.8, autoprefixer@10.4.27
-- Design tokens active: Inter font, off-white (#f8f8f8), near-black (#0a0a0a), 9xl/10xl font sizes
-- @fontsource/inter ^5.2.8 installed — Inter font available at weights 400, 500, 700
-- App.jsx is a clean minimal shell with `<main>` landmark — ready for Phase 2+ sections
-- Phase 1 visually verified by human: white background, Inter font, no scaffold, no console errors
-- No real project data yet (projects, resume PDF, contact links) — placeholders used in phases 3–6; developer fills in real content
-- Resume PDF: developer must place their resume at `public/resume.pdf`
-- Stack confirmed: React 19, Vite 7, JavaScript, Tailwind CSS v3
+| 6 | Contact Section & Footer | Complete |
+| 7 | Visual Polish — Color, Photo & Decorations | Complete |
+| 8 | Polish & Accessibility Audit | Complete |
 
 ---
 
 ## Next Action
 
-Execute Phase 6 (Contact Section & Footer) — begin with Plan 01.
+Milestone v1.0.0 is archived. Run `/gsd:new-milestone` to start the next milestone.
