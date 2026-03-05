@@ -5,7 +5,7 @@
 | Version | Name | Phases | Status |
 |---------|------|--------|--------|
 | v1.0.0 | Launch-Ready Portfolio | 1–8 | Shipped 2026-03-05 |
-| v1.1.0 | Visual Rework | 9–10 | In Progress |
+| v1.1.0 | Visual Rework | 9–10 | In Progress (1/2 phases) |
 
 <details>
 <summary>v1.0.0 Phase List (all complete)</summary>
@@ -27,13 +27,13 @@ Full archive: `.planning/milestones/v1.0.0-ROADMAP.md`
 
 ## Milestone v1.1.0: Visual Rework
 
-### Phase 9: Black Nav & Skills Section
+### Phase 9: Black Nav & Skills Section — COMPLETE
 
 **Goal:** Invert nav to black theme and add a Technologies section between About and Projects.
 
 **Requirements:** NAV-01, NAV-02, SKILL-01, SKILL-02, SKILL-03, SKILL-04
 
-**Plans:** 0/1 plans complete
+**Plans:** 1/1 plans complete
 
 **Success Criteria:**
 1. Nav renders black background / white text at all breakpoints
