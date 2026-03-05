@@ -1,9 +1,18 @@
-function App() {
+import Layout from './components/Layout';
+import About from './sections/About';
+import Skills from './sections/Skills';
+import Projects from './sections/Projects';
+import Resume from './sections/Resume';
+import Contact from './sections/Contact';
+
+export default function App() {
   return (
-    <main className="min-h-screen bg-white text-black">
-      {/* Portfolio sections will be added in Phase 2+ */}
-    </main>
+    <Layout>
+      <About />
+      <Skills />
+      <Projects />
+      <Resume />
+      <Contact />
+    </Layout>
   );
 }
-
-export default App;
