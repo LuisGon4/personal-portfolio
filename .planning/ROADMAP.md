@@ -50,7 +50,7 @@ Full archive: `.planning/milestones/v1.0.0-ROADMAP.md`
 
 **Requirements:** SHAPE-01, SHAPE-02, SHAPE-03
 
-**Plans:** 2 plans
+**Plans:** 1/2 plans executed
 
 Plans:
 - [ ] 10-01-PLAN.md — Fix existing shapes and add three new shapes (autonomous, wave 1)

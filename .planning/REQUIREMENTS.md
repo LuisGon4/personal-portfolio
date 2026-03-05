@@ -19,9 +19,9 @@
 
 ### Hero Decorations
 
-- [ ] **SHAPE-01**: Geometric shapes in the hero section do not overlap or obscure text content
-- [ ] **SHAPE-02**: Additional geometric shapes of varied type (lines, rectangles, dots, etc.) added to hero
-- [ ] **SHAPE-03**: All decorative shapes are aria-hidden and do not interfere with pointer events
+- [x] **SHAPE-01**: Geometric shapes in the hero section do not overlap or obscure text content
+- [x] **SHAPE-02**: Additional geometric shapes of varied type (lines, rectangles, dots, etc.) added to hero
+- [x] **SHAPE-03**: All decorative shapes are aria-hidden and do not interfere with pointer events
 
 ## Out of Scope
 
@@ -41,9 +41,9 @@
 | SKILL-02 | Phase 9 | Pending |
 | SKILL-03 | Phase 9 | Pending |
 | SKILL-04 | Phase 9 | Pending |
-| SHAPE-01 | Phase 10 | Pending |
-| SHAPE-02 | Phase 10 | Pending |
-| SHAPE-03 | Phase 10 | Pending |
+| SHAPE-01 | Phase 10 | Complete |
+| SHAPE-02 | Phase 10 | Complete |
+| SHAPE-03 | Phase 10 | Complete |
 
 **Coverage:**
 - v1.1.0 requirements: 9 total
