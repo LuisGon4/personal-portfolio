@@ -15,6 +15,21 @@ export default function About() {
         aria-hidden="true"
         className="absolute bottom-16 left-4 w-20 h-20 bg-indigo-50 pointer-events-none"
       />
+      {/* Geometric decoration — horizontal hairline rule, upper-left */}
+      <div
+        aria-hidden="true"
+        className="absolute top-16 left-0 w-32 h-px bg-black/10 pointer-events-none"
+      />
+      {/* Geometric decoration — small dot accent, bottom-right */}
+      <div
+        aria-hidden="true"
+        className="absolute bottom-32 right-8 w-3 h-3 rounded-full bg-indigo-300 opacity-50 pointer-events-none"
+      />
+      {/* Geometric decoration — vertical hairline, right side */}
+      <div
+        aria-hidden="true"
+        className="absolute top-1/3 -right-4 w-24 h-1 bg-black/5 rotate-90 pointer-events-none"
+      />
 
       {/* Two-column grid: text left, photo right */}
       <div className="grid md:grid-cols-[1fr_280px] gap-12 items-center">
