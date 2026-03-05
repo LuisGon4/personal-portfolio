@@ -5,6 +5,7 @@
 | Version | Name | Phases | Status |
 |---------|------|--------|--------|
 | v1.0.0 | Launch-Ready Portfolio | 1–8 | Shipped 2026-03-05 |
+| v1.1.0 | Visual Rework | 9–10 | In Progress |
 
 <details>
 <summary>v1.0.0 Phase List (all complete)</summary>
@@ -24,6 +25,35 @@ Full archive: `.planning/milestones/v1.0.0-ROADMAP.md`
 
 ---
 
-## Next Milestone
+## Milestone v1.1.0: Visual Rework
 
-_No milestone planned yet. Run `/gsd:new-milestone` to start one._
+### Phase 9: Black Nav & Skills Section
+
+**Goal:** Invert nav to black theme and add a Technologies section between About and Projects.
+
+**Requirements:** NAV-01, NAV-02, SKILL-01, SKILL-02, SKILL-03, SKILL-04
+
+**Plans:** 0/1 plans complete
+
+**Success Criteria:**
+1. Nav renders black background / white text at all breakpoints
+2. Mobile menu opens with dark theme; links invert on hover
+3. Skills section appears between About and Projects with grouped tag pills
+4. "Skills" nav link smooth-scrolls to the section
+5. `npm run build` exits 0
+
+---
+
+### Phase 10: Hero Geometric Shapes Rework
+
+**Goal:** Fix shape-text overlap in the hero and expand decorative shapes for visual impact.
+
+**Requirements:** SHAPE-01, SHAPE-02, SHAPE-03
+
+**Plans:** 0/1 plans complete
+
+**Success Criteria:**
+1. No geometric shape overlaps or obscures any text at 375px, 768px, 1280px
+2. Hero has at least 4 distinct decorative shapes of varied geometry
+3. All shapes are aria-hidden and pointer-events-none
+4. `npm run build` exits 0

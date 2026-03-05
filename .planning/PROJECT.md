@@ -66,6 +66,15 @@ A recruiter landing on the page can within 10 seconds:
 - **Geometric decorations** in hero section (circle, square)
 - **Section tints**: Projects and Contact use `bg-slate-50`
 
+## Current Milestone: v1.1.0 Visual Rework
+
+**Goal:** Elevate visual impact with a black nav, a dedicated skills section, and reworked hero decorations.
+
+**Target features:**
+- Black nav bar (white text, dark mobile menu)
+- Technologies/Skills section with grouped tag pills
+- Hero geometric shapes: fix overlap, add variety
+
 ## Validated Requirements (v1.0.0)
 
 All REQ-001–REQ-066 delivered. See `.planning/milestones/v1.0.0-REQUIREMENTS.md` for full audit.
@@ -78,4 +87,4 @@ Notable: REQ-063 ("no color other than black/white/gray") was superseded — ind
 
 ## Last updated
 
-2026-03-05 after v1.0.0 milestone
+2026-03-05 after v1.1.0 milestone start
