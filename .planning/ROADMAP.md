@@ -5,7 +5,7 @@
 | Version | Name | Phases | Status |
 |---------|------|--------|--------|
 | v1.0.0 | Launch-Ready Portfolio | 1–8 | Shipped 2026-03-05 |
-| v1.1.0 | Visual Rework | 9–10 | In Progress (1/2 phases) |
+| v1.1.0 | Visual Rework | 9–11 | Complete |
 
 <details>
 <summary>v1.0.0 Phase List (all complete)</summary>
@@ -41,6 +41,17 @@ Full archive: `.planning/milestones/v1.0.0-ROADMAP.md`
 3. Skills section appears between About and Projects with grouped tag pills
 4. "Skills" nav link smooth-scrolls to the section
 5. `npm run build` exits 0
+
+### Phase 11: Fix Resume Preview — COMPLETE
+
+**Goal:** Hide PDF iframe by default and add show/hide toggle button.
+
+**Requirements:** None
+**Depends on:** Phase 10
+**Plans:** 1/1 plans complete
+
+Plans:
+- [x] 11-01-PLAN.md — Resume preview toggle (useState show/hide)
 
 ---
 
