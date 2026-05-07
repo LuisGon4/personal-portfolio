@@ -19,9 +19,9 @@ export default function Nav() {
   }, [menuOpen]);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black border-b border-white/10">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#0f0f0f] border-b border-white/10">
       <nav className="max-w-5xl mx-auto px-6 flex items-center justify-between h-14">
-        <a href="#about" className="font-semibold text-sm tracking-widest uppercase text-white">
+        <a href="#about" className="font-display italic text-lg text-white">
           Luis
         </a>
 
