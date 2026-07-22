@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const ease = [0.22, 1, 0.36, 1];
 
-// Replace public/profile.jpg with your actual photo — no code change needed.
+
 export default function About() {
   return (
     <section
@@ -25,10 +25,7 @@ export default function About() {
         className="absolute top-1/3 -right-4 w-24 h-1 bg-[#0f0f0f]/5 rotate-90 pointer-events-none"
       />
 
-      {/* Two-column grid: text left, photo right */}
-      <div className="grid md:grid-cols-[1fr_280px] gap-12 items-center">
-        {/* Left: text */}
-        <div>
+      <div>
           <motion.h1
             className="font-display text-6xl md:text-9xl font-bold tracking-tighter leading-none mb-6"
             initial={{ opacity: 0, y: 24 }}
@@ -52,28 +49,9 @@ export default function About() {
             transition={{ duration: 0.65, delay: 0.28, ease }}
           >
             I'm a 3rd year computer science student focused on building clean, useful software. I enjoy
-            working across the stack — from designing systems to cloud infrastructure. Currently
-            looking for internship and new grad opportunities.
+            working across the stack from backend systems to cloud infrastructure. Currently
+            looking for internship opportunities.
           </motion.p>
-        </div>
-
-        {/* Right: photo */}
-        <motion.div
-          className="hidden md:flex justify-end"
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.65, delay: 0.2, ease }}
-        >
-          <div className="relative">
-            {/* Offset accent border */}
-            <div className="absolute -inset-2 border-2 border-[#c17f24] rounded-2xl translate-x-2 translate-y-2" />
-            <img
-              src="/profile.jpg"
-              alt="Luis Gonzalez Alvarado"
-              className="relative w-64 h-64 object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-500"
-            />
-          </div>
-        </motion.div>
       </div>
 
       {/* Section divider with accent */}

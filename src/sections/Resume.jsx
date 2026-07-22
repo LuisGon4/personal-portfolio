@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import resumePdf from '../data/LuisGonzalezAlvarado-Resume-2.pdf';
 
 const ease = [0.22, 1, 0.36, 1];
 const vp = { once: false, margin: '-80px' };
@@ -34,7 +35,7 @@ export default function Resume() {
         >
           <div className="flex items-center gap-6">
             <a
-              href="/resume.pdf"
+              href={resumePdf}
               download
               className="inline-block underline underline-offset-4 hover:text-[#c17f24] transition-colors"
             >
@@ -51,14 +52,14 @@ export default function Resume() {
           {showPreview && (
             <div className="mt-8 w-full">
               <iframe
-                src="/resume.pdf"
+                src={resumePdf}
                 className="w-full border border-[#0f0f0f]/10"
                 style={{ height: '80vh' }}
                 title="Resume"
               >
                 <p>
                   PDF preview unavailable.{' '}
-                  <a href="/resume.pdf" download className="underline underline-offset-4">
+                  <a href={resumePdf} download className="underline underline-offset-4">
                     Download resume
                   </a>
                   .

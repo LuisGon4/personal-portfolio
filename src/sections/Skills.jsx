@@ -6,15 +6,15 @@ const vp = { once: false, margin: '-80px' };
 const categories = [
   {
     label: 'Languages',
-    skills: ['Java', 'C++', 'SQL', 'JavaScript', 'HTML', 'CSS'],
+    skills: ['Java', 'C++', 'SQL', 'JavaScript', 'HTML', 'CSS', 'Python'],
   },
   {
     label: 'Frameworks',
-    skills: ['React', 'Spring Boot', 'PostgreSQL'],
+    skills: ['React', 'Spring Boot', 'Flask'],
   },
   {
     label: 'Tools',
-    skills: ['Git', 'GitHub', 'IntelliJ IDEA', 'VS Code', 'Postman', 'Docker', 'AWS (Basics)', 'Vercel', 'Render'],
+    skills: ['Git', 'GitHub', 'IntelliJ IDEA', 'VS Code', 'Postman', 'Docker', 'Redis', 'PostgreSQL', 'AWS', 'Vercel', 'Render'],
   },
 ];
 
